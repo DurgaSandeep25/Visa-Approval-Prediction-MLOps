@@ -1,10 +1,4 @@
-from us_visa.logger import logging
-from us_visa.exception import USvisaException
-import sys
+from us_visa.pipline.training_pipeline import TrainPipeline
 
-logging.info("Welcome to our demo")
-
-try:
-    i = 2/0
-except Exception as e:
-    raise USvisaException(e, sys)
+train = TrainPipeline()
+train.run_pipeline()
