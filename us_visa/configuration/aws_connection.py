@@ -1,5 +1,7 @@
 import boto3
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from us_visa.constants import AWS_SECRET_ACCESS_KEY_ENV_KEY, AWS_ACCESS_KEY_ID_ENV_KEY,REGION_NAME
 
 
