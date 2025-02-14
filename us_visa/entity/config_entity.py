@@ -71,10 +71,10 @@ class ModelEvaluationConfig:
 
 
 
-# @dataclass
-# class ModelPusherConfig:
-#     bucket_name: str = MODEL_BUCKET_NAME
-#     s3_model_key_path: str = MODEL_FILE_NAME
+@dataclass
+class ModelPusherConfig:
+    bucket_name: str = MODEL_BUCKET_NAME
+    s3_model_key_path: str = MODEL_FILE_NAME
 
 
 
