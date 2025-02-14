@@ -1,2 +1,4 @@
 .env
 artifact/*
+.csv
+.pem
